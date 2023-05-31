@@ -1,0 +1,33 @@
+.image1{
+    height: 150px;
+    width: 150px;
+    transition-duration: 2s;
+}
+.image1:hover{
+       transform: rotate(180deg);
+       transition-duration: 2ms;
+}
+.image2{
+    height: 150px;
+    width: 150px;
+    transition-duration: 2s;
+}
+.image2:hover{
+      transform: scale(3);
+}
+.image3{
+    height: 150px;
+    width: 150px;
+    transition-duration: 2s;
+}
+.image3:hover{
+      transform: translate(200px);
+}
+.image4{
+    height: 150px;
+    width: 150px;
+    transition-duration: 2s;
+}
+.image4:hover{
+    transform: translateY(200px);
+}

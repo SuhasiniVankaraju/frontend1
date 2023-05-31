@@ -1,0 +1,15 @@
+img{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    transition-duration: 3s;
+}
+body{
+    padding-left: 30px;
+}
+img:hover{
+     /*transform: rotate(180deg);(rotate)
+     transform: translate(200px);(move to  right)
+     transform: scale(2);(zoom)*/
+     transform: translateY(200px);
+}
